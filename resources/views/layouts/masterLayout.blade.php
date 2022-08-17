@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="{{asset('img/favicon.ico')}}" rel="icon">
+    <link href="{{secure_asset('img/favicon.ico')}}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,14 +21,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
-    <link href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('lib/animate/animate.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{asset('tmp_css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('tmp_css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{asset('tmp_css/style.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('tmp_css/style.css')}}" rel="stylesheet">
 </head>
 
 <body>
@@ -47,7 +47,7 @@
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
                 <a href="{{route('home.page')}}" class="navbar-brand d-flex align-items-center text-center">
                     <div class="icon p-2 me-2">
-                        <img class="img-fluid" src="{{asset('img/icon-deal.png')}}" alt="Icon" style="width: 30px; height: 30px;">
+                        <img class="img-fluid" src="{{secure_asset('img/icon-deal.png')}}" alt="Icon" style="width: 30px; height: 30px;">
                     </div>
                     <h1 class="m-0 text-primary">Makaan</h1>
                 </a>
@@ -114,22 +114,22 @@
                         <h5 class="text-white mb-4">Photo Gallery</h5>
                         <div class="row g-2 pt-2">
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src=" {{asset('img/property-1.jpg')}}" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src=" {{secure_asset('img/property-1.jpg')}}" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="{{asset('img/property-2.jpg ')}}" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="{{secure_asset('img/property-2.jpg ')}}" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="{{asset('img/property-3.jpg ')}}" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="{{secure_asset('img/property-3.jpg ')}}" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="{{asset('img/property-4.jpg ')}}" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="{{secure_asset('img/property-4.jpg ')}}" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="{{asset('img/property-5.jpg ')}}" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="{{secure_asset('img/property-5.jpg ')}}" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="{{asset('img/property-6.jpg ')}}" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="{{secure_asset('img/property-6.jpg ')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -174,13 +174,13 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{asset('lib/wow/wow.min.js')}}"></script>
-    <script src="{{asset('lib/easing/easing.min.js')}}"></script>
-    <script src="{{asset('lib/waypoints/waypoints.min.js')}}"></script>
-    <script src="{{asset('lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{secure_asset('lib/wow/wow.min.js')}}"></script>
+    <script src="{{secure_asset('lib/easing/easing.min.js')}}"></script>
+    <script src="{{secure_asset('lib/waypoints/waypoints.min.js')}}"></script>
+    <script src="{{secure_asset('lib/owlcarousel/owl.carousel.min.js')}}"></script>
 
     <!-- Template Javascript -->
-    <script src="{{asset('tmp_js/main.js')}}"></script>
+    <script src="{{secure_asset('tmp_js/main.js')}}"></script>
 </body>
 
 </html>

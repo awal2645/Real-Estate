@@ -16,7 +16,7 @@
                     </nav>
                 </div>
                 <div class="col-md-6 animated fadeIn">
-                    <img class="img-fluid" src="{{asset('img/header.jpg ')}}" alt="">
+                    <img class="img-fluid" src="{{secure_asset('img/header.jpg ')}}" alt="">
                 </div>
             </div>
         </div>

@@ -69,7 +69,7 @@
                 <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                     <div class="rounded p-4">
                         <div class="icon mb-3">
-                            <img class="img-fluid" src="{{asset('img/icon-apartment.png  ')}}" alt="Icon">
+                            <img class="img-fluid" src="{{secure_asset('img/icon-apartment.png  ')}}" alt="Icon">
                         </div>
                         <h6>Apartment</h6>
                         <span>123 Properties</span>
@@ -80,7 +80,7 @@
                 <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                     <div class="rounded p-4">
                         <div class="icon mb-3">
-                            <img class="img-fluid" src="{{asset('img/icon-villa.png  ')}}" alt="Icon">
+                            <img class="img-fluid" src="{{secure_asset('img/icon-villa.png  ')}}" alt="Icon">
                         </div>
                         <h6>Villa</h6>
                         <span>123 Properties</span>
@@ -91,7 +91,7 @@
                 <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                     <div class="rounded p-4">
                         <div class="icon mb-3">
-                            <img class="img-fluid" src="{{asset('img/icon-house.png  ')}}" alt="Icon">
+                            <img class="img-fluid" src="{{secure_asset('img/icon-house.png  ')}}" alt="Icon">
                         </div>
                         <h6>Home</h6>
                         <span>123 Properties</span>
@@ -102,7 +102,7 @@
                 <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                     <div class="rounded p-4">
                         <div class="icon mb-3">
-                            <img class="img-fluid" src=" {{asset('img/icon-housing.png')}}" alt="Icon">
+                            <img class="img-fluid" src=" {{secure_asset('img/icon-housing.png')}}" alt="Icon">
                         </div>
                         <h6>Office</h6>
                         <span>123 Properties</span>
@@ -113,7 +113,7 @@
                 <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                     <div class="rounded p-4">
                         <div class="icon mb-3">
-                            <img class="img-fluid" src="{{asset('img/icon-building.png  ')}}" alt="Icon">
+                            <img class="img-fluid" src="{{secure_asset('img/icon-building.png  ')}}" alt="Icon">
                         </div>
                         <h6>Building</h6>
                         <span>123 Properties</span>
@@ -124,7 +124,7 @@
                 <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                     <div class="rounded p-4">
                         <div class="icon mb-3">
-                            <img class="img-fluid" src="{{asset('img/icon-neighborhood.png  ')}}" alt="Icon">
+                            <img class="img-fluid" src="{{secure_asset('img/icon-neighborhood.png  ')}}" alt="Icon">
                         </div>
                         <h6>Townhouse</h6>
                         <span>123 Properties</span>
@@ -135,7 +135,7 @@
                 <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                     <div class="rounded p-4">
                         <div class="icon mb-3">
-                            <img class="img-fluid" src="{{asset('img/icon-condominium.png ')}}" alt="Icon">
+                            <img class="img-fluid" src="{{secure_asset('img/icon-condominium.png ')}}" alt="Icon">
                         </div>
                         <h6>Shop</h6>
                         <span>123 Properties</span>
@@ -146,7 +146,7 @@
                 <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                     <div class="rounded p-4">
                         <div class="icon mb-3">
-                            <img class="img-fluid" src=" {{asset('img/icon-luxury.png')}}" alt="Icon">
+                            <img class="img-fluid" src=" {{secure_asset('img/icon-luxury.png')}}" alt="Icon">
                         </div>
                         <h6>Garage</h6>
                         <span>123 Properties</span>
